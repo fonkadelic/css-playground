@@ -1,0 +1,55 @@
+body {
+    margin:0; padding:0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;    
+    -webkit-font-smoothing: antialiased;    
+}
+
+.main {
+    position: relative;
+    width: 300px; height: 250px;
+    background-image: -moz-radial-gradient(center center, circle, #cdcdcd 0%, rgba(169,193,196,.99) 100%); /* layer fill content */
+    background-image: -o-radial-gradient(center center, 50% 50%, #cdcdcd 0%, rgba(169,193,196,.99) 100%); /* layer fill content */
+    background-image: -webkit-radial-gradient(center center, 50% 50%, #cdcdcd 0%, rgba(169,193,196,.99) 100%); /* layer fill content */
+    background-image: radial-gradient(center center, 50% 50%, #cdcdcd 0%, rgba(169,193,196,.99) 100%); /* layer fill content */
+}    
+
+.btn {
+    display: inline-block;
+    position: absolute; top:100px; left:60px;    
+    padding: 12px 20px;
+    vertical-align: middle;    
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;    
+   
+    /* stuff from css hat */
+    color: #e5ebec; /* text color */
+    text-shadow: 0 -1px 0 #32404b; /* drop shadow */    
+    -moz-border-radius: 5px; /* from vector shape */
+    -webkit-border-radius: 5px; /* from vector shape */
+    border-radius: 5px; /* from vector shape */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    -moz-box-shadow:
+        0 1px 4px rgba(0,0,0,.8) /* drop shadow */,
+        inset 0 1px 0 rgba(227,227,227,.5) /* inner shadow */,
+        0 0 0 1px #2f3b46 /* outer glow */,
+        inset 0 0 4px rgba(183,198,209,.23) /* inner glow */;
+    -webkit-box-shadow:
+        0 1px 4px rgba(0,0,0,.8) /* drop shadow */,
+        inset 0 1px 0 rgba(227,227,227,.5) /* inner shadow */,
+        0 0 0 1px #2f3b46 /* outer glow */,
+        inset 0 0 4px rgba(183,198,209,.23) /* inner glow */;
+    box-shadow:
+        0 1px 4px rgba(0,0,0,.8) /* drop shadow */,
+        inset 0 1px 0 rgba(227,227,227,.5) /* inner shadow */,
+        0 0 0 1px #2f3b46 /* outer glow */,
+        inset 0 0 4px rgba(183,198,209,.23) /* inner glow */;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM1NjZiN2QiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4NGEzYmMiIHN0b3Atb3BhY2l0eT0iMC45OSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* layer fill content */
+    background-image: -moz-linear-gradient(90deg, #566b7d 0%, rgba(133,163,188,.99) 100%); /* layer fill content */
+    background-image: -o-linear-gradient(90deg, #566b7d 0%, rgba(133,163,188,.99) 100%); /* layer fill content */
+    background-image: -webkit-linear-gradient(90deg, #566b7d 0%, rgba(133,163,188,.99) 100%); /* layer fill content */
+    background-image: linear-gradient(90deg, #566b7d 0%, rgba(133,163,188,.99) 100%); /* layer fill content */
+}
